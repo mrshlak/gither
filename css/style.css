@@ -28,3 +28,9 @@ div#navbarNav>ul.navbar-nav>li.active>a{
 div#navbarNav>ul.navbar-nav>li>a:hover{
 	color: #94c950;
 }
+/*============================slider=======================*/
+
+/*==============================content=============================*/
+.bg-wiht{
+	background: #fff;
+}
