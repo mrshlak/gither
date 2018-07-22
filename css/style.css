@@ -6,20 +6,33 @@
 
 body{
 	background: url(../img/bg_top_gradient.jpg) repeat-x 0 0,
-	url(../img/bg_bottom_gradient.jpg) repeat-x 0 100%;
-	 box-shadow: 0px 130px 48px -27px #000000;
+	url(../img/bg_bottom_gradient.png) repeat-x 0 100%;
+	background-color: #2c2c2c;
+}
+.wrapper{
+	width: 960px;
+	margin: auto;
 }
 /*=============================header===================*/
 nav.navbar{
 	font-family: Century Gothic;
+	border-bottom: 3px solid #2b2b2b;
 }
 nav.navbar>a.navbar-brand{
+	font-size: 39.31px;
+	font-weight: bold;
+	margin-top: 5px;
 	color: #fff;
 }
-#logo_green{
+#logo_green,
+.cr_green{
 	color: #94c950;
 }
 div.collapse ul.navbar-nav a.nav-link{
+	font-size: 16.05px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 10px;
 	color: #484848;
 }
 div#navbarNav>ul.navbar-nav>li.active>a{
@@ -29,8 +42,54 @@ div#navbarNav>ul.navbar-nav>li>a:hover{
 	color: #94c950;
 }
 /*============================slider=======================*/
-
+.swd-box{
+	 box-shadow: 0px 269px 189px 70px #2c2c2c;
+}
 /*==============================content=============================*/
+.bor_ra{
+	border-radius: 20px;
+}
 .bg-wiht{
 	background: #fff;
+}
+h1{
+	font-family: HelveticoNeue;
+	font-size: 45.72px;
+	font-weight: bold;
+	line-height: 46.6px;
+	color: #b9b9b9;
+}
+.cr_b{
+	color: #696969;
+}
+.content h3{
+	font-family: HelveticoNeue;
+	padding: 5px;
+	background: #94c950;
+	color: #fff;
+	box-shadow: 5px 5px 0px 0px #d4d4d4;
+}
+.fas{
+	padding: 10px;
+	background: #536d2a;
+	color: #9bc168;
+	font-size: 12px;
+	border-radius: 30px;
+}
+.content p{
+	font-family: Verdana;
+	font-size: 14px;
+	color: #3c3d3e;
+}
+.content a{
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #94c950;
+}
+/*========================footer====================================*/
+footer p{
+	font-family: Verdana;
+	font-size: 14px;
+	color: #4e4e4e;
 }
